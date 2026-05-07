@@ -1,0 +1,29 @@
+================================================================================
+开始分析：句子控
+================================================================================
+[INFO] 共读取权限 22 个
+[INFO] 已读取隐私政策，长度 16477 字符
+[INFO] 通用原则 11 条，类别条款 0 条，典型功能提示 0 条
+[INFO] 1/22 android.permission.FOREGROUND_SERVICE -> 业务弱相关需审查 (中)
+[INFO] 2/22 android.permission.GET_TASKS -> 业务弱相关需审查 (中)
+[INFO] 3/22 android.permission.WAKE_LOCK -> 业务弱相关需审查 (中)
+[INFO] 4/22 android.permission.ACCESS_FINE_LOCATION -> 业务核心必要 (高)
+[INFO] 5/22 android.permission.READ_PHONE_STATE -> 业务弱相关需审查 (中)
+[INFO] 6/22 android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS -> 业务弱相关需审查 (中)
+[INFO] 7/22 android.permission.SCHEDULE_EXACT_ALARM -> 业务弱相关需审查 (中)
+[INFO] 8/22 android.permission.VIBRATE -> 业务弱相关需审查 (中)
+[INFO] 9/22 android.permission.INTERNET -> 业务核心必要 (高)
+[INFO] 10/22 android.permission.CHANGE_NETWORK_STATE -> 业务弱相关需审查 (中)
+[INFO] 11/22 android.permission.READ_EXTERNAL_STORAGE -> 业务辅助合理 (中)
+[INFO] 12/22 android.permission.CAMERA -> 业务核心必要 (高)
+[INFO] 13/22 android.permission.ACCESS_WIFI_STATE -> 业务辅助合理 (中)
+[INFO] 14/22 android.permission.WRITE_EXTERNAL_STORAGE -> 业务辅助合理 (高)
+[INFO] 15/22 android.permission.QUERY_ALL_PACKAGES -> 业务弱相关需审查 (中)
+[INFO] 16/22 android.permission.MODIFY_AUDIO_SETTINGS -> 业务弱相关需审查 (中)
+[INFO] 17/22 android.permission.CHANGE_WIFI_STATE -> 业务弱相关需审查 (中)
+[INFO] 18/22 android.permission.RECORD_AUDIO -> 业务核心必要 (高)
+[INFO] 19/22 android.permission.ACCESS_NETWORK_STATE -> 业务辅助合理 (高)
+[INFO] 20/22 android.permission.ACCESS_COARSE_LOCATION -> 业务辅助合理 (中)
+[INFO] 21/22 android.permission.REQUEST_INSTALL_PACKAGES -> 业务弱相关需审查 (中)
+[INFO] 22/22 android.permission.REORDER_TASKS -> 业务弱相关需审查 (中)
+[DONE] 报告已输出：E:\exper\output\句子控\国标和权限分析结果.md

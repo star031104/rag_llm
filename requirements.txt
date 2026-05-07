@@ -1,0 +1,7 @@
+requests~=2.32.5
+numpy~=2.2.6
+faiss-cpu~=1.13.2
+tqdm~=4.67.1
+openai~=2.14.0
+pillow~=11.2.1
+paddleocr~=3.3.2

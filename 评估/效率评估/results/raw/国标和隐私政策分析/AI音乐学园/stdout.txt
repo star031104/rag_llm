@@ -1,0 +1,7 @@
+   · 控制点分析：A1 隐私政策适用范围
+⚠️ 调用异常: HTTPSConnectionPool(host='api.siliconflow.cn', port=443): Max retries exceeded with url: /v1/chat/completions (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
+   · 控制点分析：B1 个人信息类型与必要性
+   · 控制点分析：C2 敏感个人信息单独同意
+   · 控制点分析：D2 第三方SDK合规披露
+   · 控制点分析：F1 个人信息安全保护措施
+✅ 已生成报告：E:\exper\output\AI音乐学园\国标和隐私政策分析结果.md

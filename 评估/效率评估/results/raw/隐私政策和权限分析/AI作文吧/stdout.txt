@@ -1,0 +1,32 @@
+
+================================================================================
+开始分析：AI作文吧
+================================================================================
+[INFO] 已读取 apk映射：E:\exper\dataset\apk映射\AI作文吧.apk.txt，命中 5 条
+[INFO] 共读取权限 6 个
+[INFO] 系统权限 5 个，非系统权限 1 个
+[INFO] 规则层预抽取能力块：129 个
+[INFO] 隐私政策切分为 14 个窗口，开始抽取能力块...
+[INFO] 窗口 1/14：提取到 0 个能力块
+[INFO] 窗口 2/14：提取到 5 个能力块
+[INFO] 窗口 3/14：提取到 5 个能力块
+[INFO] 窗口 4/14：提取到 5 个能力块
+[INFO] 窗口 5/14：提取到 3 个能力块
+[INFO] 窗口 6/14：提取到 1 个能力块
+[INFO] 窗口 7/14：提取到 0 个能力块
+[INFO] 窗口 8/14：提取到 1 个能力块
+[INFO] 窗口 9/14：提取到 3 个能力块
+[INFO] 窗口 10/14：提取到 0 个能力块
+[INFO] 窗口 11/14：提取到 0 个能力块
+[INFO] 窗口 12/14：提取到 2 个能力块
+[INFO] 窗口 13/14：提取到 0 个能力块
+[INFO] 窗口 14/14：提取到 1 个能力块
+[INFO] 去重后能力块数量：147
+[INFO] 开始逐权限匹配分析...
+[INFO] 1/6 android.permission.MOUNT_UNMOUNT_FILESYSTEMS -> 未告知 (低)
+[INFO] 2/6 android.permission.READ_EXTERNAL_STORAGE -> 已明确告知 (高)
+[INFO] 3/6 android.permission.WRITE_EXTERNAL_STORAGE -> 已明确告知 (高)
+[INFO] 4/6 com.aizuowenba.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION -> 间接告知 (中)
+[INFO] 5/6 android.permission.READ_MEDIA_IMAGES -> 已明确告知 (高)
+[INFO] 6/6 android.permission.INTERNET -> 已明确告知 (高)
+[DONE] 报告已输出：E:\exper\output\AI作文吧\隐私政策和权限分析结果.md

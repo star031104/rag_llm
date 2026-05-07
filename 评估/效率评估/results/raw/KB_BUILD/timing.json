@@ -1,0 +1,32 @@
+{
+  "app_name": "KB_BUILD",
+  "pipeline_name": "向量化建库",
+  "meta": {
+    "script_path": "D:\\桌面\\毕设\\code\\向量化.py",
+    "project_dir": "E:\\exper",
+    "in_path": "chunks_with_embedding_text.jsonl",
+    "out_dir": "rag_store"
+  },
+  "stage_times": {
+    "build_store": 0.010393100000101185
+  },
+  "rag_calls": [],
+  "llm_calls": [],
+  "summary": {
+    "latency_total_s": 0.010618300000032832,
+    "rag_latency_s": 0,
+    "llm_inference_time_s": 0,
+    "other_time_s": 0.010618300000032832,
+    "rag_call_count": 0,
+    "llm_call_count": 0,
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0,
+    "token_cost": 0,
+    "currency": "¥"
+  },
+  "extra": {
+    "success": true,
+    "error": ""
+  }
+}

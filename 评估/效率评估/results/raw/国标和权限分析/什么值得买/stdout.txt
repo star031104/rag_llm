@@ -1,0 +1,30 @@
+================================================================================
+开始分析：什么值得买
+================================================================================
+[INFO] 共读取权限 23 个
+[INFO] 已读取隐私政策，长度 24217 字符
+[INFO] 通用原则 11 条，类别条款 12 条，典型功能提示 9 条
+[INFO] 1/23 android.permission.READ_CALENDAR -> 业务弱相关需审查 (中)
+[INFO] 2/23 android.permission.READ_MEDIA_VIDEO -> 业务弱相关需审查 (中)
+[INFO] 3/23 android.permission.POST_NOTIFICATIONS -> 业务辅助合理 (中)
+[INFO] 4/23 android.permission.SYSTEM_ALERT_WINDOW -> 业务弱相关需审查 (中)
+[INFO] 5/23 android.permission.WAKE_LOCK -> 业务弱相关需审查 (中)
+[INFO] 6/23 android.permission.CHANGE_CONFIGURATION -> 业务弱相关需审查 (中)
+[INFO] 7/23 android.permission.ACCESS_FINE_LOCATION -> 业务辅助合理 (中)
+[INFO] 8/23 android.permission.READ_MEDIA_VISUAL_USER_SELECTED -> 业务辅助合理 (中)
+[INFO] 9/23 android.permission.VIBRATE -> 业务弱相关需审查 (中)
+[INFO] 10/23 android.permission.INTERNET -> 业务核心必要 (高)
+[INFO] 11/23 android.permission.CHANGE_NETWORK_STATE -> 业务弱相关需审查 (中)
+[INFO] 12/23 android.permission.CAMERA -> 业务辅助合理 (中)
+[INFO] 13/23 android.permission.ACCESS_WIFI_STATE -> 业务辅助合理 (中)
+[INFO] 14/23 android.permission.WRITE_EXTERNAL_STORAGE -> 业务弱相关需审查 (中)
+[INFO] 15/23 android.permission.READ_EXTERNAL_STORAGE -> 业务辅助合理 (中)
+[INFO] 16/23 android.permission.MODIFY_AUDIO_SETTINGS -> 业务弱相关需审查 (中)
+[INFO] 17/23 android.permission.READ_MEDIA_IMAGES -> 业务辅助合理 (中)
+[INFO] 18/23 android.permission.READ_MEDIA_AUDIO -> 业务弱相关需审查 (中)
+[INFO] 19/23 android.permission.CHANGE_WIFI_STATE -> 业务弱相关需审查 (中)
+[INFO] 20/23 android.permission.ACCESS_NETWORK_STATE -> 业务核心必要 (高)
+[INFO] 21/23 android.permission.RECORD_AUDIO -> 业务弱相关需审查 (中)
+[INFO] 22/23 android.permission.ACCESS_COARSE_LOCATION -> 业务辅助合理 (中)
+[INFO] 23/23 android.permission.WRITE_CALENDAR -> 业务弱相关需审查 (中)
+[DONE] 报告已输出：E:\exper\output\什么值得买\国标和权限分析结果.md

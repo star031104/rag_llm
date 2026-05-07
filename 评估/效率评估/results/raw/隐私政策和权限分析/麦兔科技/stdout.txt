@@ -1,0 +1,44 @@
+
+================================================================================
+开始分析：麦兔科技
+================================================================================
+[INFO] 已读取 apk映射：E:\exper\dataset\apk映射\麦兔科技.apk.txt，命中 26 条
+[INFO] 共读取权限 27 个
+[INFO] 系统权限 26 个，非系统权限 1 个
+[INFO] 规则层预抽取能力块：82 个
+[INFO] 隐私政策切分为 5 个窗口，开始抽取能力块...
+[INFO] 窗口 1/5：提取到 3 个能力块
+[INFO] 窗口 2/5：提取到 6 个能力块
+[INFO] 窗口 3/5：提取到 5 个能力块
+[INFO] 窗口 4/5：提取到 0 个能力块
+[INFO] 窗口 5/5：提取到 0 个能力块
+[INFO] 去重后能力块数量：91
+[INFO] 开始逐权限匹配分析...
+[INFO] 1/27 android.permission.READ_MEDIA_VIDEO -> 已明确告知 (高)
+[INFO] 2/27 android.permission.FOREGROUND_SERVICE -> 未告知 (低)
+[INFO] 3/27 android.permission.GET_TASKS -> 未告知 (低)
+[INFO] 4/27 android.permission.WAKE_LOCK -> 未告知 (低)
+[INFO] 5/27 android.permission.BLUETOOTH_CONNECT -> 已明确告知 (高)
+[INFO] 6/27 android.permission.RECEIVE_BOOT_COMPLETED -> 未告知 (低)
+[INFO] 7/27 android.permission.BLUETOOTH_SCAN -> 已明确告知 (高)
+[INFO] 8/27 android.permission.ACCESS_FINE_LOCATION -> 已明确告知 (高)
+[INFO] 9/27 android.permission.READ_PHONE_STATE -> 已明确告知 (高)
+[INFO] 10/27 android.permission.BLUETOOTH -> 已明确告知 (高)
+[INFO] 11/27 android.permission.INTERNET -> 已明确告知 (高)
+[INFO] 12/27 android.permission.CHANGE_NETWORK_STATE -> 已明确告知 (高)
+[INFO] 13/27 android.permission.READ_EXTERNAL_STORAGE -> 已明确告知 (高)
+[INFO] 14/27 android.permission.CAMERA -> 已明确告知 (高)
+[INFO] 15/27 android.permission.ACCESS_WIFI_STATE -> 已明确告知 (高)
+[INFO] 16/27 android.permission.WRITE_EXTERNAL_STORAGE -> 已明确告知 (高)
+[INFO] 17/27 android.permission.QUERY_ALL_PACKAGES -> 未告知 (低)
+[INFO] 18/27 android.permission.READ_MEDIA_IMAGES -> 已明确告知 (高)
+[INFO] 19/27 box.maitufit.com.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION -> 未告知 (低)
+[INFO] 20/27 android.permission.BLUETOOTH_ADMIN -> 已明确告知 (高)
+[INFO] 21/27 android.permission.CHANGE_WIFI_STATE -> 已明确告知 (高)
+[INFO] 22/27 android.permission.READ_MEDIA_AUDIO -> 已明确告知 (高)
+[INFO] 23/27 android.permission.ACCESS_NETWORK_STATE -> 已明确告知 (高)
+[INFO] 24/27 android.permission.RECORD_AUDIO -> 已明确告知 (高)
+[INFO] 25/27 android.permission.ACCESS_COARSE_LOCATION -> 已明确告知 (高)
+[INFO] 26/27 android.permission.FOREGROUND_SERVICE_DATA_SYNC -> 未告知 (低)
+[INFO] 27/27 android.permission.REORDER_TASKS -> 未告知 (低)
+[DONE] 报告已输出：E:\exper\output\麦兔科技\隐私政策和权限分析结果.md

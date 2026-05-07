@@ -1,0 +1,49 @@
+
+================================================================================
+开始分析：ChatPPT生成
+================================================================================
+[INFO] 已读取 apk映射：E:\exper\dataset\apk映射\ChatPPT生成.apk.txt，命中 14 条
+[INFO] 共读取权限 26 个
+[INFO] 系统权限 15 个，非系统权限 11 个
+[INFO] 规则层预抽取能力块：87 个
+[INFO] 隐私政策切分为 11 个窗口，开始抽取能力块...
+[INFO] 窗口 1/11：提取到 3 个能力块
+[INFO] 窗口 2/11：提取到 3 个能力块
+[INFO] 窗口 3/11：提取到 5 个能力块
+[INFO] 窗口 4/11：提取到 4 个能力块
+[INFO] 窗口 5/11：提取到 0 个能力块
+[INFO] 窗口 6/11：提取到 0 个能力块
+[INFO] 窗口 7/11：提取到 0 个能力块
+[INFO] 窗口 8/11：提取到 0 个能力块
+[INFO] 窗口 9/11：提取到 0 个能力块
+[INFO] 窗口 10/11：提取到 0 个能力块
+[INFO] 窗口 11/11：提取到 0 个能力块
+[INFO] 去重后能力块数量：101
+[INFO] 开始逐权限匹配分析...
+[INFO] 1/26 android.permission.READ_APP_BADGE -> 已明确告知 (高)
+[INFO] 2/26 android.permission.READ_MEDIA_VIDEO -> 已明确告知 (高)
+[INFO] 3/26 android.permission.FOREGROUND_SERVICE -> 已明确告知 (高)
+[INFO] 4/26 android.permission.POST_NOTIFICATIONS -> 已明确告知 (高)
+[INFO] 5/26 com.asus.msa.SupplementaryDID.ACCESS -> 间接告知 (中)
+[INFO] 6/26 android.permission.WAKE_LOCK -> 已明确告知 (高)
+[INFO] 7/26 com.wyxinsheng.chatPPT.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION -> 间接告知 (中)
+[INFO] 8/26 oplus.permission.settings.LAUNCH_FOR_EXPORT -> 未告知 (低)
+[INFO] 9/26 com.vivo.identifier.permission.OAID_STATE_DIALOG -> 间接告知 (中)
+[INFO] 10/26 com.sec.android.provider.badge.permission.WRITE -> 已明确告知 (高)
+[INFO] 11/26 android.permission.INTERNET -> 已明确告知 (高)
+[INFO] 12/26 com.tencent.mm.permission.MM_MESSAGE -> 未告知 (低)
+[INFO] 13/26 android.permission.CHANGE_NETWORK_STATE -> 已明确告知 (高)
+[INFO] 14/26 android.permission.READ_EXTERNAL_STORAGE -> 已明确告知 (高)
+[INFO] 15/26 android.permission.ACCESS_WIFI_STATE -> 已明确告知 (高)
+[INFO] 16/26 android.permission.WRITE_EXTERNAL_STORAGE -> 已明确告知 (高)
+[INFO] 17/26 com.sec.android.provider.badge.permission.READ -> 已明确告知 (高)
+[INFO] 18/26 android.permission.MANAGE_EXTERNAL_STORAGE -> 已明确告知 (高)
+[INFO] 19/26 freemme.permission.msa.SECURITY_ACCESS -> 间接告知 (中)
+[INFO] 20/26 com.huawei.android.launcher.permission.CHANGE_BADGE -> 已明确告知 (高)
+[INFO] 21/26 android.permission.READ_MEDIA_IMAGES -> 已明确告知 (高)
+[INFO] 22/26 com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE -> 间接告知 (中)
+[INFO] 23/26 android.permission.CHANGE_WIFI_STATE -> 已明确告知 (高)
+[INFO] 24/26 freemme.permission.msa -> 间接告知 (中)
+[INFO] 25/26 android.permission.READ_MEDIA_AUDIO -> 未告知 (低)
+[INFO] 26/26 android.permission.ACCESS_NETWORK_STATE -> 已明确告知 (高)
+[DONE] 报告已输出：E:\exper\output\ChatPPT生成\隐私政策和权限分析结果.md

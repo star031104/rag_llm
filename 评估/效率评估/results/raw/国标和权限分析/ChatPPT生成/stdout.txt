@@ -1,0 +1,21 @@
+================================================================================
+开始分析：ChatPPT生成
+================================================================================
+[INFO] 共读取权限 14 个
+[INFO] 已读取隐私政策，长度 11511 字符
+[INFO] 通用原则 11 条，类别条款 0 条，典型功能提示 0 条
+[INFO] 1/14 android.permission.READ_MEDIA_VIDEO -> 业务弱相关需审查 (中)
+[INFO] 2/14 android.permission.FOREGROUND_SERVICE -> 业务弱相关需审查 (中)
+[INFO] 3/14 android.permission.POST_NOTIFICATIONS -> 业务辅助合理 (中)
+[INFO] 4/14 android.permission.WAKE_LOCK -> 业务弱相关需审查 (中)
+[INFO] 5/14 android.permission.INTERNET -> 业务核心必要 (高)
+[INFO] 6/14 android.permission.CHANGE_NETWORK_STATE -> 业务辅助合理 (高)
+[INFO] 7/14 android.permission.READ_EXTERNAL_STORAGE -> 业务弱相关需审查 (中)
+[INFO] 8/14 android.permission.ACCESS_WIFI_STATE -> 业务辅助合理 (高)
+[INFO] 9/14 android.permission.WRITE_EXTERNAL_STORAGE -> 业务辅助合理 (高)
+[INFO] 10/14 android.permission.MANAGE_EXTERNAL_STORAGE -> 业务弱相关需审查 (中)
+[INFO] 11/14 android.permission.READ_MEDIA_IMAGES -> 业务辅助合理 (中)
+[INFO] 12/14 android.permission.CHANGE_WIFI_STATE -> 业务弱相关需审查 (中)
+[INFO] 13/14 android.permission.READ_MEDIA_AUDIO -> 业务弱相关需审查 (中)
+[INFO] 14/14 android.permission.ACCESS_NETWORK_STATE -> 业务辅助合理 (高)
+[DONE] 报告已输出：E:\exper\output\ChatPPT生成\国标和权限分析结果.md

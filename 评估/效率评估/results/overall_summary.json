@@ -1,0 +1,15 @@
+{
+  "total_runs": 45,
+  "success_runs": 45,
+  "avg_latency_total_s": 92.41165524444445,
+  "avg_rag_latency_s": 0.12378913333333333,
+  "avg_llm_inference_time_s": 88.91308811111111,
+  "avg_prompt_tokens": 56818.11111111111,
+  "avg_completion_tokens": 4094.9333333333334,
+  "avg_total_tokens": 60913.044444444444,
+  "avg_token_cost": 0.03250398888888889,
+  "avg_cost_per_app": 0.03250398888888889,
+  "throughput_overall_app_per_hour": 38.473190799933924,
+  "benchmark_wallclock_s": 4210.7243156,
+  "kb_build_time_s": 0.010618
+}

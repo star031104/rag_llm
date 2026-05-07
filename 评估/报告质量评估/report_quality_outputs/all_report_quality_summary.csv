@@ -1,0 +1,4 @@
+﻿report_type,report_count,avg_structure_rate,avg_evidence_rate,total_evidence_items,total_evidence_hits,global_evidence_rate
+国标-隐私政策,229,0.998059,1.0,760,760,1.0
+隐私政策-权限,229,1.0,1.0,10252,10252,1.0
+国标-权限,229,0.875,1.0,5911,5911,1.0

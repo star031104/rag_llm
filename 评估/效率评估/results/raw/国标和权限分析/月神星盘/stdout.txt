@@ -1,0 +1,31 @@
+================================================================================
+开始分析：月神星盘
+================================================================================
+[INFO] 共读取权限 24 个
+[INFO] 已读取隐私政策，长度 6836 字符
+[INFO] 通用原则 11 条，类别条款 0 条，典型功能提示 0 条
+[INFO] 1/24 android.permission.READ_MEDIA_VIDEO -> 业务弱相关需审查 (中)
+[INFO] 2/24 android.permission.INSTALL_PACKAGES -> 业务弱相关需审查 (中)
+[INFO] 3/24 android.permission.WAKE_LOCK -> 业务弱相关需审查 (中)
+[INFO] 4/24 android.permission.WRITE_SETTINGS -> 业务弱相关需审查 (中)
+[INFO] 5/24 android.permission.ACCESS_FINE_LOCATION -> 业务核心必要 (高)
+[INFO] 6/24 android.permission.READ_PHONE_STATE -> 业务弱相关需审查 (中)
+[INFO] 7/24 android.permission.READ_MEDIA_VISUAL_USER_SELECTED -> 业务辅助合理 (中)
+[INFO] 8/24 android.permission.ACCESS_LOCATION_EXTRA_COMMANDS -> 业务辅助合理 (高)
+[INFO] 9/24 android.permission.VIBRATE -> 业务弱相关需审查 (中)
+[INFO] 10/24 android.permission.INTERNET -> 业务核心必要 (高)
+[INFO] 11/24 android.permission.MOUNT_UNMOUNT_FILESYSTEMS -> 业务弱相关需审查 (中)
+[INFO] 12/24 android.permission.CHANGE_NETWORK_STATE -> 业务弱相关需审查 (中)
+[INFO] 13/24 android.permission.READ_LOGS -> 业务弱相关需审查 (中)
+[INFO] 14/24 android.permission.READ_EXTERNAL_STORAGE -> 业务弱相关需审查 (中)
+[INFO] 15/24 android.permission.CAMERA -> 业务核心必要 (高)
+[INFO] 16/24 android.permission.ACCESS_WIFI_STATE -> 业务辅助合理 (中)
+[INFO] 17/24 android.permission.WRITE_EXTERNAL_STORAGE -> 业务弱相关需审查 (中)
+[INFO] 18/24 android.permission.GET_ACCOUNTS -> 业务弱相关需审查 (中)
+[INFO] 19/24 android.permission.MODIFY_AUDIO_SETTINGS -> 业务弱相关需审查 (中)
+[INFO] 20/24 android.permission.READ_MEDIA_IMAGES -> 业务弱相关需审查 (中)
+[INFO] 21/24 android.permission.CHANGE_WIFI_STATE -> 业务弱相关需审查 (中)
+[INFO] 22/24 android.permission.ACCESS_NETWORK_STATE -> 业务辅助合理 (高)
+[INFO] 23/24 android.permission.ACCESS_COARSE_LOCATION -> 业务辅助合理 (高)
+[INFO] 24/24 android.permission.REQUEST_INSTALL_PACKAGES -> 业务弱相关需审查 (中)
+[DONE] 报告已输出：E:\exper\output\月神星盘\国标和权限分析结果.md

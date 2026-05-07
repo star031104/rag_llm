@@ -1,0 +1,46 @@
+1 RAG 检索评估
+Hit@k
+Recall@k
+MRR
+nDCG
+
+2 分类模型评估
+Accuracy
+Precision
+Recall
+F1-score
+Confusion Matrix
+
+3 三方合规分析能力评估
+3.1 权限—隐私政策一致性分析
+Precision
+Recall
+F1-score
+3.2 权限—国标合规性分析
+Precision
+Recall
+F1-score
+3.3 隐私政策—国标一致性分析
+Precision
+Recall
+F1-score
+
+4 报告质量评估
+结构完整率
+证据存在率
+
+5 消融实验
+无 RAG
+无语义
+不同 embedding
+不同 chunk 策略
+prompt约束
+不同llm
+
+6 系统效率评估
+Latency
+RAG latency
+LLM inference time
+Token cost
+Average cost per app
+Throughput

@@ -1,0 +1,62 @@
+{
+  "evaluated_samples": 110,
+  "accuracy": 0.790909,
+  "macro_precision": 0.782867,
+  "macro_recall": 0.683038,
+  "macro_f1": 0.70824,
+  "micro_precision": 0.790909,
+  "micro_recall": 0.790909,
+  "micro_f1": 0.790909,
+  "weighted_precision": 0.797271,
+  "weighted_recall": 0.790909,
+  "weighted_f1": 0.779898,
+  "classification_report": {
+    "满足": {
+      "precision": 0.7142857142857143,
+      "recall": 0.35714285714285715,
+      "f1-score": 0.47619047619047616,
+      "support": 14.0
+    },
+    "部分满足": {
+      "precision": 0.7424242424242424,
+      "recall": 0.9245283018867925,
+      "f1-score": 0.8235294117647058,
+      "support": 53.0
+    },
+    "不满足": {
+      "precision": 0.8918918918918919,
+      "recall": 0.7674418604651163,
+      "f1-score": 0.825,
+      "support": 43.0
+    },
+    "accuracy": 0.7909090909090909,
+    "macro avg": {
+      "precision": 0.7828672828672829,
+      "recall": 0.683037673164922,
+      "f1-score": 0.7082399626517274,
+      "support": 110.0
+    },
+    "weighted avg": {
+      "precision": 0.7972712381803291,
+      "recall": 0.7909090909090909,
+      "f1-score": 0.7798975044563279,
+      "support": 110.0
+    }
+  },
+  "input_file": "data.xlsx",
+  "total_rows": 110,
+  "unique_apps": 22,
+  "unique_control_points": 5,
+  "control_points": [
+    "A1",
+    "B1",
+    "C2",
+    "D2",
+    "F1"
+  ],
+  "label_order": [
+    "满足",
+    "部分满足",
+    "不满足"
+  ]
+}

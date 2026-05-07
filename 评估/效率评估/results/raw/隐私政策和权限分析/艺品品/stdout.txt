@@ -1,0 +1,60 @@
+
+================================================================================
+开始分析：艺品品
+================================================================================
+[INFO] 已读取 apk映射：E:\exper\dataset\apk映射\艺品品.apk.txt，命中 26 条
+[INFO] 共读取权限 42 个
+[INFO] 系统权限 27 个，非系统权限 15 个
+[INFO] 规则层预抽取能力块：68 个
+[INFO] 隐私政策切分为 6 个窗口，开始抽取能力块...
+[INFO] 窗口 1/6：提取到 2 个能力块
+[INFO] 窗口 2/6：提取到 6 个能力块
+[INFO] 窗口 3/6：提取到 2 个能力块
+[INFO] 窗口 4/6：提取到 2 个能力块
+[INFO] 窗口 5/6：提取到 5 个能力块
+[INFO] 窗口 6/6：提取到 4 个能力块
+[INFO] 去重后能力块数量：86
+[INFO] 开始逐权限匹配分析...
+[INFO] 1/42 com.vivo.notification.permission.BADGE_ICON -> 已明确告知 (高)
+[INFO] 2/42 android.permission.READ_MEDIA_VIDEO -> 已明确告知 (高)
+[INFO] 3/42 android.permission.POST_NOTIFICATIONS -> 已明确告知 (高)
+[INFO] 4/42 android.permission.FLASHLIGHT -> 已明确告知 (高)
+[INFO] 5/42 com.asus.msa.SupplementaryDID.ACCESS -> 间接告知 (中)
+[INFO] 6/42 android.permission.INSTALL_PACKAGES -> 已明确告知 (高)
+[INFO] 7/42 android.permission.WAKE_LOCK -> 已明确告知 (高)
+[INFO] 8/42 android.permission.WRITE_SETTINGS -> 未告知 (低)
+[INFO] 9/42 android.permission.READ_PHONE_STATE -> 已明确告知 (高)
+[INFO] 10/42 com.hihonor.push.permission.READ_PUSH_NOTIFICATION_INFO -> 已明确告知 (高)
+[INFO] 11/42 android.permission.READ_MEDIA_VISUAL_USER_SELECTED -> 已明确告知 (高)
+[INFO] 12/42 android.permission.BLUETOOTH -> 已明确告知 (高)
+[INFO] 13/42 com.meizu.flyme.push.permission.RECEIVE -> 已明确告知 (高)
+[INFO] 14/42 com.meizu.c2dm.permission.RECEIVE -> 间接告知 (中)
+[INFO] 15/42 android.permission.CALL_PHONE -> 已明确告知 (高)
+[INFO] 16/42 io.dcloud.UNIF957C85.permission.PUSH_PROVIDER -> 已明确告知 (高)
+[INFO] 17/42 android.permission.VIBRATE -> 已明确告知 (高)
+[INFO] 18/42 android.permission.INTERNET -> 已明确告知 (高)
+[INFO] 19/42 android.permission.MOUNT_UNMOUNT_FILESYSTEMS -> 未告知 (低)
+[INFO] 20/42 io.dcloud.UNIF957C85.permission.C2D_MESSAGE -> 间接告知 (中)
+[INFO] 21/42 android.permission.CHANGE_NETWORK_STATE -> 已明确告知 (高)
+[INFO] 22/42 android.permission.READ_LOGS -> 未告知 (低)
+[INFO] 23/42 android.permission.READ_EXTERNAL_STORAGE -> 已明确告知 (高)
+[INFO] 24/42 android.permission.CAMERA -> 已明确告知 (高)
+[INFO] 25/42 android.permission.ACCESS_WIFI_STATE -> 已明确告知 (高)
+[INFO] 26/42 android.permission.WRITE_EXTERNAL_STORAGE -> 已明确告知 (高)
+[INFO] 27/42 android.permission.MANAGE_EXTERNAL_STORAGE -> 已明确告知 (高)
+[INFO] 28/42 android.permission.GET_ACCOUNTS -> 已明确告知 (高)
+[INFO] 29/42 android.permission.MODIFY_AUDIO_SETTINGS -> 已明确告知 (高)
+[INFO] 30/42 android.permission.READ_MEDIA_IMAGES -> 已明确告知 (高)
+[INFO] 31/42 com.huawei.android.launcher.permission.CHANGE_BADGE -> 已明确告知 (高)
+[INFO] 32/42 android.permission.CHANGE_WIFI_STATE -> 已明确告知 (高)
+[INFO] 33/42 io.dcloud.UNIF957C85.permission.MIPUSH_RECEIVE -> 已明确告知 (高)
+[INFO] 34/42 com.heytap.mcs.permission.RECIEVE_MCS_MESSAGE -> 未告知 (低)
+[INFO] 35/42 com.google.android.c2dm.permission.RECEIVE -> 间接告知 (中)
+[INFO] 36/42 io.dcloud.UNIF957C85.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION -> 间接告知 (中)
+[INFO] 37/42 android.permission.ACCESS_NETWORK_STATE -> 已明确告知 (高)
+[INFO] 38/42 android.permission.RECORD_AUDIO -> 已明确告知 (高)
+[INFO] 39/42 com.coloros.mcs.permission.RECIEVE_MCS_MESSAGE -> 未告知 (低)
+[INFO] 40/42 android.permission.REQUEST_INSTALL_PACKAGES -> 已明确告知 (高)
+[INFO] 41/42 io.dcloud.UNIF957C85.permission.PROCESS_PUSH_MSG -> 已明确告知 (高)
+[INFO] 42/42 io.dcloud.UNIF957C85.push.permission.MESSAGE -> 已明确告知 (高)
+[DONE] 报告已输出：E:\exper\output\艺品品\隐私政策和权限分析结果.md

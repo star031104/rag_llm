@@ -1,0 +1,4 @@
+﻿pipeline_name,app_count,avg_latency_total_s,avg_rag_latency_s,avg_llm_inference_time_s,avg_prompt_tokens,avg_completion_tokens,avg_total_tokens,avg_token_cost,avg_cost_per_app,throughput_app_per_hour
+国标和权限分析,15,147.559198,0.331625,145.123388,122180.533,5699.933,127880.467,0.0667902,0.0667902,12.824397
+国标和隐私政策分析,15,67.810749,0.039742,60.220433,27299.333,3593.867,30893.2,0.01724353,0.01724353,12.824397
+隐私政策和权限分析,15,61.865019,0.0,61.395443,20974.467,2991.0,23965.467,0.01347823,0.01347823,12.824397

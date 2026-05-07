@@ -1,0 +1,24 @@
+================================================================================
+开始分析：筑梦AI
+================================================================================
+[INFO] 共读取权限 17 个
+[INFO] 已读取隐私政策，长度 8131 字符
+[INFO] 通用原则 11 条，类别条款 0 条，典型功能提示 0 条
+[INFO] 1/17 android.permission.READ_MEDIA_VIDEO -> 业务辅助合理 (高)
+[INFO] 2/17 android.permission.POST_NOTIFICATIONS -> 业务辅助合理 (中)
+[INFO] 3/17 android.permission.SYSTEM_ALERT_WINDOW -> 业务弱相关需审查 (中)
+[INFO] 4/17 android.permission.WAKE_LOCK -> 业务弱相关需审查 (中)
+[INFO] 5/17 android.permission.ACCESS_FINE_LOCATION -> 业务核心必要 (高)
+[INFO] 6/17 android.permission.READ_PHONE_STATE -> 业务弱相关需审查 (中)
+[INFO] 7/17 android.permission.VIBRATE -> 业务弱相关需审查 (中)
+[INFO] 8/17 android.permission.INTERNET -> 业务核心必要 (高)
+[INFO] 9/17 android.permission.CHANGE_NETWORK_STATE -> 业务弱相关需审查 (中)
+[INFO] 10/17 android.permission.READ_EXTERNAL_STORAGE -> 业务核心必要 (高)
+[INFO] 11/17 android.permission.ACCESS_WIFI_STATE -> 业务辅助合理 (中)
+[INFO] 12/17 android.permission.WRITE_EXTERNAL_STORAGE -> 业务辅助合理 (高)
+[INFO] 13/17 android.permission.READ_MEDIA_IMAGES -> 业务核心必要 (高)
+[INFO] 14/17 android.permission.CHANGE_WIFI_STATE -> 业务弱相关需审查 (中)
+[INFO] 15/17 android.permission.ACCESS_NETWORK_STATE -> 业务辅助合理 (高)
+[INFO] 16/17 android.permission.ACCESS_COARSE_LOCATION -> 业务弱相关需审查 (中)
+[INFO] 17/17 android.permission.REQUEST_INSTALL_PACKAGES -> 业务弱相关需审查 (中)
+[DONE] 报告已输出：E:\exper\output\筑梦AI\国标和权限分析结果.md

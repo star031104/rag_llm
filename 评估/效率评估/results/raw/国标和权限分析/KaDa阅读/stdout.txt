@@ -1,0 +1,23 @@
+================================================================================
+开始分析：KaDa阅读
+================================================================================
+[INFO] 共读取权限 16 个
+[INFO] 已读取隐私政策，长度 19766 字符
+[INFO] 通用原则 11 条，类别条款 12 条，典型功能提示 9 条
+[INFO] 1/16 android.permission.FOREGROUND_SERVICE -> 业务弱相关需审查 (中)
+[INFO] 2/16 android.permission.DISABLE_KEYGUARD -> 业务弱相关需审查 (中)
+[INFO] 3/16 android.permission.WAKE_LOCK -> 业务弱相关需审查 (中)
+[INFO] 4/16 android.permission.READ_PHONE_STATE -> 业务弱相关需审查 (中)
+[INFO] 5/16 android.permission.VIBRATE -> 业务弱相关需审查 (中)
+[INFO] 6/16 android.permission.INTERNET -> 业务核心必要 (高)
+[INFO] 7/16 android.permission.CHANGE_NETWORK_STATE -> 业务弱相关需审查 (中)
+[INFO] 8/16 android.permission.READ_EXTERNAL_STORAGE -> 业务辅助合理 (中)
+[INFO] 9/16 android.permission.CAMERA -> 业务弱相关需审查 (中)
+[INFO] 10/16 android.permission.ACCESS_WIFI_STATE -> 业务辅助合理 (中)
+[INFO] 11/16 android.permission.WRITE_EXTERNAL_STORAGE -> 业务核心必要 (高)
+[INFO] 12/16 android.permission.MANAGE_EXTERNAL_STORAGE -> 业务弱相关需审查 (中)
+[INFO] 13/16 android.permission.QUERY_ALL_PACKAGES -> 业务弱相关需审查 (中)
+[INFO] 14/16 android.permission.ACCESS_NETWORK_STATE -> 业务核心必要 (高)
+[INFO] 15/16 android.permission.RECORD_AUDIO -> 业务核心必要 (高)
+[INFO] 16/16 android.permission.REORDER_TASKS -> 业务弱相关需审查 (中)
+[DONE] 报告已输出：E:\exper\output\KaDa阅读\国标和权限分析结果.md

@@ -1,0 +1,43 @@
+================================================================================
+开始分析：AI音乐学园
+================================================================================
+[INFO] 共读取权限 36 个
+[INFO] 已读取隐私政策，长度 21235 字符
+[INFO] 通用原则 11 条，类别条款 12 条，典型功能提示 9 条
+[INFO] 1/36 android.permission.READ_PHONE_NUMBERS -> 业务弱相关需审查 (中)
+[INFO] 2/36 android.permission.READ_MEDIA_VIDEO -> 业务弱相关需审查 (中)
+[INFO] 3/36 android.permission.GET_TASKS -> 业务弱相关需审查 (中)
+[INFO] 4/36 android.permission.POST_NOTIFICATIONS -> 业务辅助合理 (中)
+[INFO] 5/36 android.permission.SYSTEM_ALERT_WINDOW -> 业务弱相关需审查 (中)
+[INFO] 6/36 android.permission.WAKE_LOCK -> 业务弱相关需审查 (中)
+[INFO] 7/36 android.permission.BLUETOOTH_CONNECT -> 业务弱相关需审查 (中)
+[INFO] 8/36 android.permission.RECEIVE_BOOT_COMPLETED -> 业务弱相关需审查 (中)
+[INFO] 9/36 android.permission.WRITE_SETTINGS -> 业务弱相关需审查 (中)
+[INFO] 10/36 android.permission.BLUETOOTH_SCAN -> 业务弱相关需审查 (中)
+[INFO] 11/36 android.permission.ACCESS_FINE_LOCATION -> 业务辅助合理 (中)
+[INFO] 12/36 android.permission.ACCESS_LOCATION_EXTRA_COMMANDS -> 业务弱相关需审查 (中)
+[INFO] 13/36 android.permission.ACCESS_BACKGROUND_LOCATION -> 业务弱相关需审查 (中)
+[INFO] 14/36 android.permission.BLUETOOTH -> 业务弱相关需审查 (中)
+[INFO] 15/36 android.permission.VIBRATE -> 业务弱相关需审查 (中)
+[INFO] 16/36 android.permission.INTERNET -> 业务核心必要 (高)
+[INFO] 17/36 android.permission.MOUNT_UNMOUNT_FILESYSTEMS -> 业务弱相关需审查 (中)
+[INFO] 18/36 android.permission.BLUETOOTH_ADVERTISE -> 业务弱相关需审查 (中)
+[INFO] 19/36 android.permission.CHANGE_NETWORK_STATE -> 业务弱相关需审查 (中)
+[INFO] 20/36 android.permission.READ_LOGS -> 业务弱相关需审查 (中)
+[INFO] 21/36 android.permission.READ_EXTERNAL_STORAGE -> 业务辅助合理 (中)
+[INFO] 22/36 android.permission.ACCESS_WIFI_STATE -> 业务辅助合理 (中)
+[INFO] 23/36 android.permission.WRITE_EXTERNAL_STORAGE -> 业务辅助合理 (中)
+[INFO] 24/36 android.permission.CAMERA -> 业务辅助合理 (中)
+[INFO] 25/36 android.permission.KILL_BACKGROUND_PROCESSES -> 业务弱相关需审查 (中)
+[INFO] 26/36 android.permission.MODIFY_AUDIO_SETTINGS -> 业务辅助合理 (中)
+[INFO] 27/36 android.permission.QUERY_ALL_PACKAGES -> 业务弱相关需审查 (中)
+[INFO] 28/36 android.permission.READ_MEDIA_IMAGES -> 业务弱相关需审查 (中)
+[INFO] 29/36 android.permission.CHANGE_WIFI_STATE -> 业务弱相关需审查 (中)
+[INFO] 30/36 android.permission.CAPTURE_AUDIO_OUTPUT -> 业务辅助合理 (中)
+[INFO] 31/36 android.permission.READ_MEDIA_AUDIO -> 业务弱相关需审查 (中)
+[INFO] 32/36 android.permission.BLUETOOTH_ADMIN -> 业务弱相关需审查 (中)
+[INFO] 33/36 android.permission.ACCESS_NETWORK_STATE -> 业务辅助合理 (中)
+[INFO] 34/36 android.permission.RECORD_AUDIO -> 业务核心必要 (高)
+[INFO] 35/36 android.permission.ACCESS_COARSE_LOCATION -> 业务辅助合理 (中)
+[INFO] 36/36 android.permission.REQUEST_INSTALL_PACKAGES -> 业务弱相关需审查 (中)
+[DONE] 报告已输出：E:\exper\output\AI音乐学园\国标和权限分析结果.md

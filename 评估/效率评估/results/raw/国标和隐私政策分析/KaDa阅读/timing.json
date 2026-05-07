@@ -1,0 +1,138 @@
+{
+  "app_name": "KaDa阅读",
+  "pipeline_name": "国标和隐私政策分析",
+  "meta": {
+    "script_path": "D:\\桌面\\毕设\\code\\国标和隐私政策分析.py",
+    "project_dir": "E:\\exper",
+    "policy_path": "E:\\exper\\dataset\\隐私政策\\KaDa阅读.txt"
+  },
+  "stage_times": {
+    "analysis": 70.50516359999983
+  },
+  "rag_calls": [
+    {
+      "query": "隐私政策适用范围处理主体服务范围",
+      "latency_s": 0.007442499999797292,
+      "topk": null,
+      "hit_count": 8,
+      "extra": {
+        "intent": "definition"
+      }
+    },
+    {
+      "query": "个人信息类型收集必要性",
+      "latency_s": 0.0021954999997433333,
+      "topk": null,
+      "hit_count": 8,
+      "extra": {
+        "intent": "profile"
+      }
+    },
+    {
+      "query": "敏感个人信息单独同意",
+      "latency_s": 0.002038000000084139,
+      "topk": null,
+      "hit_count": 8,
+      "extra": {
+        "intent": "general"
+      }
+    },
+    {
+      "query": "第三方SDK披露个人信息",
+      "latency_s": 0.0014385999998012267,
+      "topk": null,
+      "hit_count": 8,
+      "extra": {
+        "intent": "general"
+      }
+    },
+    {
+      "query": "安全保护措施数据安全",
+      "latency_s": 0.002120999999988271,
+      "topk": null,
+      "hit_count": 8,
+      "extra": {
+        "intent": "general"
+      }
+    }
+  ],
+  "llm_calls": [
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 12.126343500000075,
+      "prompt_tokens": 5283,
+      "completion_tokens": 663,
+      "total_tokens": 5946,
+      "input_cost": 0.0026415,
+      "output_cost": 0.000663,
+      "total_cost": 0.0033045,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 10.198327799999788,
+      "prompt_tokens": 4921,
+      "completion_tokens": 717,
+      "total_tokens": 5638,
+      "input_cost": 0.0024605,
+      "output_cost": 0.000717,
+      "total_cost": 0.0031774999999999998,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 16.937457900000027,
+      "prompt_tokens": 5295,
+      "completion_tokens": 880,
+      "total_tokens": 6175,
+      "input_cost": 0.0026475,
+      "output_cost": 0.00088,
+      "total_cost": 0.0035275000000000003,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 9.85929920000035,
+      "prompt_tokens": 5979,
+      "completion_tokens": 721,
+      "total_tokens": 6700,
+      "input_cost": 0.0029895,
+      "output_cost": 0.000721,
+      "total_cost": 0.0037105,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 13.81187030000001,
+      "prompt_tokens": 6245,
+      "completion_tokens": 1095,
+      "total_tokens": 7340,
+      "input_cost": 0.0031225,
+      "output_cost": 0.001095,
+      "total_cost": 0.0042175,
+      "extra": {}
+    }
+  ],
+  "summary": {
+    "latency_total_s": 70.50586239999984,
+    "rag_latency_s": 0.015235599999414262,
+    "llm_inference_time_s": 62.93329870000025,
+    "other_time_s": 7.557328100000177,
+    "rag_call_count": 5,
+    "llm_call_count": 5,
+    "prompt_tokens": 27723,
+    "completion_tokens": 4076,
+    "total_tokens": 31799,
+    "token_cost": 0.017937500000000002,
+    "currency": "¥"
+  },
+  "extra": {
+    "success": true,
+    "error": ""
+  }
+}

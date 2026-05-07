@@ -1,0 +1,12 @@
+================================================================================
+开始分析：AI作文吧
+================================================================================
+[INFO] 共读取权限 5 个
+[INFO] 已读取隐私政策，长度 14568 字符
+[INFO] 通用原则 11 条，类别条款 12 条，典型功能提示 9 条
+[INFO] 1/5 android.permission.MOUNT_UNMOUNT_FILESYSTEMS -> 业务弱相关需审查 (中)
+[INFO] 2/5 android.permission.READ_EXTERNAL_STORAGE -> 业务核心必要 (高)
+[INFO] 3/5 android.permission.WRITE_EXTERNAL_STORAGE -> 业务核心必要 (高)
+[INFO] 4/5 android.permission.READ_MEDIA_IMAGES -> 业务核心必要 (高)
+[INFO] 5/5 android.permission.INTERNET -> 业务核心必要 (高)
+[DONE] 报告已输出：E:\exper\output\AI作文吧\国标和权限分析结果.md

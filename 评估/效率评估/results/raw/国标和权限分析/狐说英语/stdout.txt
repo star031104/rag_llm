@@ -1,0 +1,26 @@
+================================================================================
+开始分析：狐说英语
+================================================================================
+[INFO] 共读取权限 19 个
+[INFO] 已读取隐私政策，长度 5972 字符
+[INFO] 通用原则 11 条，类别条款 12 条，典型功能提示 9 条
+[INFO] 1/19 android.permission.READ_MEDIA_VIDEO -> 业务弱相关需审查 (中)
+[INFO] 2/19 android.permission.FOREGROUND_SERVICE -> 业务弱相关需审查 (中)
+[INFO] 3/19 android.permission.POST_NOTIFICATIONS -> 业务辅助合理 (高)
+[INFO] 4/19 android.permission.WAKE_LOCK -> 业务弱相关需审查 (中)
+[INFO] 5/19 android.permission.RECEIVE_BOOT_COMPLETED -> 业务弱相关需审查 (中)
+[INFO] 6/19 android.permission.READ_PHONE_STATE -> 业务弱相关需审查 (中)
+[INFO] 7/19 android.permission.BLUETOOTH -> 业务弱相关需审查 (中)
+[INFO] 8/19 android.permission.SCHEDULE_EXACT_ALARM -> 业务弱相关需审查 (中)
+[INFO] 9/19 android.permission.VIBRATE -> 业务弱相关需审查 (中)
+[INFO] 10/19 android.permission.INTERNET -> 业务核心必要 (高)
+[INFO] 11/19 android.permission.READ_EXTERNAL_STORAGE -> 业务弱相关需审查 (中)
+[INFO] 12/19 android.permission.ACCESS_WIFI_STATE -> 业务辅助合理 (中)
+[INFO] 13/19 android.permission.WRITE_EXTERNAL_STORAGE -> 业务弱相关需审查 (中)
+[INFO] 14/19 android.permission.MODIFY_AUDIO_SETTINGS -> 业务弱相关需审查 (中)
+[INFO] 15/19 android.permission.READ_MEDIA_IMAGES -> 业务辅助合理 (中)
+[INFO] 16/19 android.permission.READ_MEDIA_AUDIO -> 业务弱相关需审查 (中)
+[INFO] 17/19 android.permission.ACCESS_NETWORK_STATE -> 业务核心必要 (高)
+[INFO] 18/19 android.permission.RECORD_AUDIO -> 业务核心必要 (高)
+[INFO] 19/19 android.permission.REQUEST_INSTALL_PACKAGES -> 业务弱相关需审查 (中)
+[DONE] 报告已输出：E:\exper\output\狐说英语\国标和权限分析结果.md

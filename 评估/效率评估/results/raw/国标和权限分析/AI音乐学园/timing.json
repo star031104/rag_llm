@@ -1,0 +1,908 @@
+{
+  "app_name": "AI音乐学园",
+  "pipeline_name": "国标和权限分析",
+  "meta": {
+    "script_path": "D:\\桌面\\毕设\\code\\国标和权限分析.py",
+    "project_dir": "E:\\exper"
+  },
+  "stage_times": {
+    "analysis": 262.68684370000005
+  },
+  "rag_calls": [
+    {
+      "query": "移动应用 权限申请 最小必要 原则 合理相关",
+      "latency_s": 0.015080900000157271,
+      "topk": 8,
+      "hit_count": 8,
+      "extra": {
+        "intent": "general"
+      }
+    },
+    {
+      "query": "移动互联网应用程序 个人信息 最小必要 权限 申请",
+      "latency_s": 0.001964799999996103,
+      "topk": 8,
+      "hit_count": 8,
+      "extra": {
+        "intent": "general"
+      }
+    },
+    {
+      "query": "GB/T 41391 权限申请 最小必要 合理相关",
+      "latency_s": 0.0017262000001210254,
+      "topk": 8,
+      "hit_count": 8,
+      "extra": {
+        "intent": "general"
+      }
+    },
+    {
+      "query": "学习教育类 GB/T 41391 基本业务功能 必要个人信息 表",
+      "latency_s": 0.0015754999999444408,
+      "topk": 10,
+      "hit_count": 10,
+      "extra": {
+        "intent": "general"
+      }
+    },
+    {
+      "query": "学习教育类 权限申请 最小必要 合理相关",
+      "latency_s": 0.001595599999973274,
+      "topk": 10,
+      "hit_count": 10,
+      "extra": {
+        "intent": "general"
+      }
+    },
+    {
+      "query": "学习教育类 典型业务功能 图片 视频 相机 存储 网络",
+      "latency_s": 0.0014924999998129351,
+      "topk": 10,
+      "hit_count": 10,
+      "extra": {
+        "intent": "general"
+      }
+    },
+    {
+      "query": "学习教育类 应用 常见功能 场景 图片 视频 录音 定位 上传 下载",
+      "latency_s": 0.001630499999919266,
+      "topk": 6,
+      "hit_count": 6,
+      "extra": {
+        "intent": "general"
+      }
+    },
+    {
+      "query": "学习教育类 app 常见业务功能 功能场景",
+      "latency_s": 0.001477199999953882,
+      "topk": 6,
+      "hit_count": 6,
+      "extra": {
+        "intent": "general"
+      }
+    }
+  ],
+  "llm_calls": [
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 2.4041824000000815,
+      "prompt_tokens": 124,
+      "completion_tokens": 90,
+      "total_tokens": 214,
+      "input_cost": 6.2e-05,
+      "output_cost": 9e-05,
+      "total_cost": 0.000152,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 2.2681106,
+      "prompt_tokens": 116,
+      "completion_tokens": 69,
+      "total_tokens": 185,
+      "input_cost": 5.8e-05,
+      "output_cost": 6.9e-05,
+      "total_cost": 0.000127,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 2.5161078999999518,
+      "prompt_tokens": 135,
+      "completion_tokens": 71,
+      "total_tokens": 206,
+      "input_cost": 6.75e-05,
+      "output_cost": 7.1e-05,
+      "total_cost": 0.0001385,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 2.1214669000000868,
+      "prompt_tokens": 115,
+      "completion_tokens": 67,
+      "total_tokens": 182,
+      "input_cost": 5.75e-05,
+      "output_cost": 6.7e-05,
+      "total_cost": 0.0001245,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 2.254679000000124,
+      "prompt_tokens": 129,
+      "completion_tokens": 75,
+      "total_tokens": 204,
+      "input_cost": 6.45e-05,
+      "output_cost": 7.5e-05,
+      "total_cost": 0.00013949999999999998,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 2.9164766000001237,
+      "prompt_tokens": 123,
+      "completion_tokens": 92,
+      "total_tokens": 215,
+      "input_cost": 6.15e-05,
+      "output_cost": 9.2e-05,
+      "total_cost": 0.0001535,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 2.556671400000141,
+      "prompt_tokens": 118,
+      "completion_tokens": 77,
+      "total_tokens": 195,
+      "input_cost": 5.9e-05,
+      "output_cost": 7.7e-05,
+      "total_cost": 0.000136,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 2.4131953000000976,
+      "prompt_tokens": 127,
+      "completion_tokens": 85,
+      "total_tokens": 212,
+      "input_cost": 6.35e-05,
+      "output_cost": 8.5e-05,
+      "total_cost": 0.0001485,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 2.4267825999997967,
+      "prompt_tokens": 115,
+      "completion_tokens": 72,
+      "total_tokens": 187,
+      "input_cost": 5.75e-05,
+      "output_cost": 7.2e-05,
+      "total_cost": 0.0001295,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 3.6489899999999125,
+      "prompt_tokens": 119,
+      "completion_tokens": 74,
+      "total_tokens": 193,
+      "input_cost": 5.95e-05,
+      "output_cost": 7.4e-05,
+      "total_cost": 0.0001335,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 2.1841283000001113,
+      "prompt_tokens": 113,
+      "completion_tokens": 68,
+      "total_tokens": 181,
+      "input_cost": 5.65e-05,
+      "output_cost": 6.8e-05,
+      "total_cost": 0.0001245,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 2.268715200000088,
+      "prompt_tokens": 117,
+      "completion_tokens": 79,
+      "total_tokens": 196,
+      "input_cost": 5.85e-05,
+      "output_cost": 7.9e-05,
+      "total_cost": 0.00013749999999999998,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 2.32315420000009,
+      "prompt_tokens": 115,
+      "completion_tokens": 75,
+      "total_tokens": 190,
+      "input_cost": 5.75e-05,
+      "output_cost": 7.5e-05,
+      "total_cost": 0.0001325,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 2.2523298999999497,
+      "prompt_tokens": 115,
+      "completion_tokens": 78,
+      "total_tokens": 193,
+      "input_cost": 5.75e-05,
+      "output_cost": 7.8e-05,
+      "total_cost": 0.0001355,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 3.788834500000121,
+      "prompt_tokens": 111,
+      "completion_tokens": 67,
+      "total_tokens": 178,
+      "input_cost": 5.55e-05,
+      "output_cost": 6.7e-05,
+      "total_cost": 0.0001225,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 2.2176171999999497,
+      "prompt_tokens": 140,
+      "completion_tokens": 69,
+      "total_tokens": 209,
+      "input_cost": 7e-05,
+      "output_cost": 6.9e-05,
+      "total_cost": 0.000139,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 3.664728200000127,
+      "prompt_tokens": 114,
+      "completion_tokens": 75,
+      "total_tokens": 189,
+      "input_cost": 5.7e-05,
+      "output_cost": 7.5e-05,
+      "total_cost": 0.000132,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 2.2475111000001107,
+      "prompt_tokens": 117,
+      "completion_tokens": 91,
+      "total_tokens": 208,
+      "input_cost": 5.85e-05,
+      "output_cost": 9.1e-05,
+      "total_cost": 0.0001495,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 2.421264100000144,
+      "prompt_tokens": 115,
+      "completion_tokens": 94,
+      "total_tokens": 209,
+      "input_cost": 5.75e-05,
+      "output_cost": 9.4e-05,
+      "total_cost": 0.0001515,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 2.2463255000000117,
+      "prompt_tokens": 116,
+      "completion_tokens": 77,
+      "total_tokens": 193,
+      "input_cost": 5.8e-05,
+      "output_cost": 7.7e-05,
+      "total_cost": 0.000135,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 2.544231700000182,
+      "prompt_tokens": 121,
+      "completion_tokens": 79,
+      "total_tokens": 200,
+      "input_cost": 6.05e-05,
+      "output_cost": 7.9e-05,
+      "total_cost": 0.0001395,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 3.218039600000111,
+      "prompt_tokens": 115,
+      "completion_tokens": 79,
+      "total_tokens": 194,
+      "input_cost": 5.75e-05,
+      "output_cost": 7.9e-05,
+      "total_cost": 0.0001365,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 4.429771200000005,
+      "prompt_tokens": 122,
+      "completion_tokens": 82,
+      "total_tokens": 204,
+      "input_cost": 6.1e-05,
+      "output_cost": 8.2e-05,
+      "total_cost": 0.000143,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 2.376899599999888,
+      "prompt_tokens": 115,
+      "completion_tokens": 89,
+      "total_tokens": 204,
+      "input_cost": 5.75e-05,
+      "output_cost": 8.9e-05,
+      "total_cost": 0.00014649999999999998,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 2.7958102000000054,
+      "prompt_tokens": 115,
+      "completion_tokens": 76,
+      "total_tokens": 191,
+      "input_cost": 5.75e-05,
+      "output_cost": 7.6e-05,
+      "total_cost": 0.0001335,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 2.1905055000001994,
+      "prompt_tokens": 116,
+      "completion_tokens": 70,
+      "total_tokens": 186,
+      "input_cost": 5.8e-05,
+      "output_cost": 7e-05,
+      "total_cost": 0.000128,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 2.16194019999989,
+      "prompt_tokens": 116,
+      "completion_tokens": 72,
+      "total_tokens": 188,
+      "input_cost": 5.8e-05,
+      "output_cost": 7.2e-05,
+      "total_cost": 0.00013000000000000002,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 2.2601494999998977,
+      "prompt_tokens": 113,
+      "completion_tokens": 82,
+      "total_tokens": 195,
+      "input_cost": 5.65e-05,
+      "output_cost": 8.2e-05,
+      "total_cost": 0.0001385,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 2.7314592000000175,
+      "prompt_tokens": 112,
+      "completion_tokens": 68,
+      "total_tokens": 180,
+      "input_cost": 5.6e-05,
+      "output_cost": 6.8e-05,
+      "total_cost": 0.000124,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 4.032899600000064,
+      "prompt_tokens": 114,
+      "completion_tokens": 82,
+      "total_tokens": 196,
+      "input_cost": 5.7e-05,
+      "output_cost": 8.2e-05,
+      "total_cost": 0.00013900000000000002,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 4.354980099999921,
+      "prompt_tokens": 114,
+      "completion_tokens": 69,
+      "total_tokens": 183,
+      "input_cost": 5.7e-05,
+      "output_cost": 6.9e-05,
+      "total_cost": 0.000126,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 4.285937899999908,
+      "prompt_tokens": 5498,
+      "completion_tokens": 245,
+      "total_tokens": 5743,
+      "input_cost": 0.002749,
+      "output_cost": 0.000245,
+      "total_cost": 0.002994,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 5.273583599999938,
+      "prompt_tokens": 5280,
+      "completion_tokens": 190,
+      "total_tokens": 5470,
+      "input_cost": 0.00264,
+      "output_cost": 0.00019,
+      "total_cost": 0.00283,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 3.714905700000145,
+      "prompt_tokens": 5177,
+      "completion_tokens": 179,
+      "total_tokens": 5356,
+      "input_cost": 0.0025885,
+      "output_cost": 0.000179,
+      "total_cost": 0.0027675,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 3.9702607000001535,
+      "prompt_tokens": 5399,
+      "completion_tokens": 200,
+      "total_tokens": 5599,
+      "input_cost": 0.0026995,
+      "output_cost": 0.0002,
+      "total_cost": 0.0028995,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 3.739376400000083,
+      "prompt_tokens": 5133,
+      "completion_tokens": 243,
+      "total_tokens": 5376,
+      "input_cost": 0.0025665,
+      "output_cost": 0.000243,
+      "total_cost": 0.0028095000000000004,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 5.5691523999998935,
+      "prompt_tokens": 5149,
+      "completion_tokens": 254,
+      "total_tokens": 5403,
+      "input_cost": 0.0025745,
+      "output_cost": 0.000254,
+      "total_cost": 0.0028285,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 4.385713200000055,
+      "prompt_tokens": 5135,
+      "completion_tokens": 246,
+      "total_tokens": 5381,
+      "input_cost": 0.0025675,
+      "output_cost": 0.000246,
+      "total_cost": 0.0028135,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 5.075749099999939,
+      "prompt_tokens": 5143,
+      "completion_tokens": 300,
+      "total_tokens": 5443,
+      "input_cost": 0.0025715,
+      "output_cost": 0.0003,
+      "total_cost": 0.0028715,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 5.348861899999974,
+      "prompt_tokens": 5130,
+      "completion_tokens": 267,
+      "total_tokens": 5397,
+      "input_cost": 0.002565,
+      "output_cost": 0.000267,
+      "total_cost": 0.002832,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 4.511383499999965,
+      "prompt_tokens": 5132,
+      "completion_tokens": 314,
+      "total_tokens": 5446,
+      "input_cost": 0.002566,
+      "output_cost": 0.000314,
+      "total_cost": 0.00288,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 7.944782499999974,
+      "prompt_tokens": 5326,
+      "completion_tokens": 202,
+      "total_tokens": 5528,
+      "input_cost": 0.002663,
+      "output_cost": 0.000202,
+      "total_cost": 0.002865,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 6.809144699999933,
+      "prompt_tokens": 5337,
+      "completion_tokens": 321,
+      "total_tokens": 5658,
+      "input_cost": 0.0026685,
+      "output_cost": 0.000321,
+      "total_cost": 0.0029895,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 4.124849700000141,
+      "prompt_tokens": 5333,
+      "completion_tokens": 240,
+      "total_tokens": 5573,
+      "input_cost": 0.0026665,
+      "output_cost": 0.00024,
+      "total_cost": 0.0029065000000000002,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 6.322752300000047,
+      "prompt_tokens": 5136,
+      "completion_tokens": 296,
+      "total_tokens": 5432,
+      "input_cost": 0.002568,
+      "output_cost": 0.000296,
+      "total_cost": 0.002864,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 4.566376600000012,
+      "prompt_tokens": 5125,
+      "completion_tokens": 229,
+      "total_tokens": 5354,
+      "input_cost": 0.0025625,
+      "output_cost": 0.000229,
+      "total_cost": 0.0027915,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 3.5702931999999237,
+      "prompt_tokens": 5483,
+      "completion_tokens": 171,
+      "total_tokens": 5654,
+      "input_cost": 0.0027415,
+      "output_cost": 0.000171,
+      "total_cost": 0.0029125,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 3.9424183000000994,
+      "prompt_tokens": 5304,
+      "completion_tokens": 217,
+      "total_tokens": 5521,
+      "input_cost": 0.002652,
+      "output_cost": 0.000217,
+      "total_cost": 0.002869,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 4.919129999999996,
+      "prompt_tokens": 5127,
+      "completion_tokens": 252,
+      "total_tokens": 5379,
+      "input_cost": 0.0025635,
+      "output_cost": 0.000252,
+      "total_cost": 0.0028155,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 4.407703400000173,
+      "prompt_tokens": 5484,
+      "completion_tokens": 224,
+      "total_tokens": 5708,
+      "input_cost": 0.002742,
+      "output_cost": 0.000224,
+      "total_cost": 0.002966,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 3.6954474000001483,
+      "prompt_tokens": 5302,
+      "completion_tokens": 181,
+      "total_tokens": 5483,
+      "input_cost": 0.002651,
+      "output_cost": 0.000181,
+      "total_cost": 0.0028320000000000003,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 9.892187800000102,
+      "prompt_tokens": 5279,
+      "completion_tokens": 226,
+      "total_tokens": 5505,
+      "input_cost": 0.0026395,
+      "output_cost": 0.000226,
+      "total_cost": 0.0028655,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 4.478722399999924,
+      "prompt_tokens": 5503,
+      "completion_tokens": 164,
+      "total_tokens": 5667,
+      "input_cost": 0.0027515,
+      "output_cost": 0.000164,
+      "total_cost": 0.0029155,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 3.2585461000001033,
+      "prompt_tokens": 5282,
+      "completion_tokens": 158,
+      "total_tokens": 5440,
+      "input_cost": 0.002641,
+      "output_cost": 0.000158,
+      "total_cost": 0.0027990000000000003,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 7.854068200000029,
+      "prompt_tokens": 5262,
+      "completion_tokens": 179,
+      "total_tokens": 5441,
+      "input_cost": 0.002631,
+      "output_cost": 0.000179,
+      "total_cost": 0.00281,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 4.516767200000004,
+      "prompt_tokens": 5137,
+      "completion_tokens": 252,
+      "total_tokens": 5389,
+      "input_cost": 0.0025685,
+      "output_cost": 0.000252,
+      "total_cost": 0.0028205,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 5.624601799999937,
+      "prompt_tokens": 5255,
+      "completion_tokens": 154,
+      "total_tokens": 5409,
+      "input_cost": 0.0026275,
+      "output_cost": 0.000154,
+      "total_cost": 0.0027815,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 3.8933518000001186,
+      "prompt_tokens": 5188,
+      "completion_tokens": 208,
+      "total_tokens": 5396,
+      "input_cost": 0.002594,
+      "output_cost": 0.000208,
+      "total_cost": 0.002802,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 6.583103100000017,
+      "prompt_tokens": 5279,
+      "completion_tokens": 200,
+      "total_tokens": 5479,
+      "input_cost": 0.0026395,
+      "output_cost": 0.0002,
+      "total_cost": 0.0028395,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 3.622736199999963,
+      "prompt_tokens": 5498,
+      "completion_tokens": 163,
+      "total_tokens": 5661,
+      "input_cost": 0.002749,
+      "output_cost": 0.000163,
+      "total_cost": 0.002912,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 4.035066900000174,
+      "prompt_tokens": 5252,
+      "completion_tokens": 188,
+      "total_tokens": 5440,
+      "input_cost": 0.002626,
+      "output_cost": 0.000188,
+      "total_cost": 0.0028139999999999997,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 6.715061300000116,
+      "prompt_tokens": 5318,
+      "completion_tokens": 320,
+      "total_tokens": 5638,
+      "input_cost": 0.002659,
+      "output_cost": 0.00032,
+      "total_cost": 0.002979,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 4.093330700000024,
+      "prompt_tokens": 5130,
+      "completion_tokens": 275,
+      "total_tokens": 5405,
+      "input_cost": 0.002565,
+      "output_cost": 0.000275,
+      "total_cost": 0.00284,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 4.668537699999888,
+      "prompt_tokens": 5491,
+      "completion_tokens": 184,
+      "total_tokens": 5675,
+      "input_cost": 0.0027455,
+      "output_cost": 0.000184,
+      "total_cost": 0.0029295000000000002,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 3.1117294000000584,
+      "prompt_tokens": 5244,
+      "completion_tokens": 129,
+      "total_tokens": 5373,
+      "input_cost": 0.002622,
+      "output_cost": 0.000129,
+      "total_cost": 0.002751,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 3.683964600000081,
+      "prompt_tokens": 5340,
+      "completion_tokens": 177,
+      "total_tokens": 5517,
+      "input_cost": 0.00267,
+      "output_cost": 0.000177,
+      "total_cost": 0.002847,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 4.007136100000025,
+      "prompt_tokens": 5357,
+      "completion_tokens": 200,
+      "total_tokens": 5557,
+      "input_cost": 0.0026785,
+      "output_cost": 0.0002,
+      "total_cost": 0.0028785,
+      "extra": {}
+    }
+  ],
+  "summary": {
+    "latency_total_s": 262.6939740999999,
+    "rag_latency_s": 0.026543199999878198,
+    "llm_inference_time_s": 260.45469110000226,
+    "other_time_s": 2.2127397999977347,
+    "rag_call_count": 8,
+    "llm_call_count": 67,
+    "prompt_tokens": 193615,
+    "completion_tokens": 10341,
+    "total_tokens": 203956,
+    "token_cost": 0.1071485,
+    "currency": "¥"
+  },
+  "extra": {
+    "success": true,
+    "error": ""
+  }
+}

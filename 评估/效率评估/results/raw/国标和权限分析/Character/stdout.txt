@@ -1,0 +1,20 @@
+================================================================================
+开始分析：Character
+================================================================================
+[INFO] 共读取权限 13 个
+[INFO] 已读取隐私政策，长度 14739 字符
+[INFO] 通用原则 11 条，类别条款 12 条，典型功能提示 10 条
+[INFO] 1/13 android.permission.CHANGE_WIFI_STATE -> 业务辅助合理 (中)
+[INFO] 2/13 android.permission.CHANGE_NETWORK_STATE -> 业务辅助合理 (中)
+[INFO] 3/13 android.permission.ACCESS_NETWORK_STATE -> 业务辅助合理 (中)
+[INFO] 4/13 android.permission.READ_EXTERNAL_STORAGE -> 业务辅助合理 (中)
+[INFO] 5/13 android.permission.ACCESS_WIFI_STATE -> 业务辅助合理 (中)
+[INFO] 6/13 android.permission.WRITE_EXTERNAL_STORAGE -> 业务核心必要 (高)
+[INFO] 7/13 android.permission.MANAGE_EXTERNAL_STORAGE -> 业务核心必要 (高)
+[INFO] 8/13 android.permission.WAKE_LOCK -> 业务弱相关需审查 (中)
+[INFO] 9/13 android.permission.REQUEST_INSTALL_PACKAGES -> 业务弱相关需审查 (中)
+[INFO] 10/13 android.permission.SYSTEM_ALERT_WINDOW -> 业务弱相关需审查 (中)
+[INFO] 11/13 android.permission.REORDER_TASKS -> 业务弱相关需审查 (中)
+[INFO] 12/13 android.permission.VIBRATE -> 业务弱相关需审查 (中)
+[INFO] 13/13 android.permission.INTERNET -> 业务核心必要 (高)
+[DONE] 报告已输出：E:\exper\output\Character\国标和权限分析结果.md

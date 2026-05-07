@@ -1,0 +1,33 @@
+================================================================================
+开始分析：麦兔科技
+================================================================================
+[INFO] 共读取权限 26 个
+[INFO] 已读取隐私政策，长度 5548 字符
+[INFO] 通用原则 11 条，类别条款 0 条，典型功能提示 0 条
+[INFO] 1/26 android.permission.READ_MEDIA_VIDEO -> 业务弱相关需审查 (中)
+[INFO] 2/26 android.permission.FOREGROUND_SERVICE -> 业务弱相关需审查 (中)
+[INFO] 3/26 android.permission.GET_TASKS -> 业务弱相关需审查 (中)
+[INFO] 4/26 android.permission.WAKE_LOCK -> 业务弱相关需审查 (中)
+[INFO] 5/26 android.permission.BLUETOOTH_CONNECT -> 业务弱相关需审查 (中)
+[INFO] 6/26 android.permission.RECEIVE_BOOT_COMPLETED -> 业务弱相关需审查 (中)
+[INFO] 7/26 android.permission.BLUETOOTH_SCAN -> 业务弱相关需审查 (中)
+[INFO] 8/26 android.permission.ACCESS_FINE_LOCATION -> 业务核心必要 (高)
+[INFO] 9/26 android.permission.READ_PHONE_STATE -> 业务弱相关需审查 (中)
+[INFO] 10/26 android.permission.BLUETOOTH -> 业务弱相关需审查 (中)
+[INFO] 11/26 android.permission.INTERNET -> 业务核心必要 (高)
+[INFO] 12/26 android.permission.CHANGE_NETWORK_STATE -> 业务辅助合理 (高)
+[INFO] 13/26 android.permission.READ_EXTERNAL_STORAGE -> 业务辅助合理 (中)
+[INFO] 14/26 android.permission.CAMERA -> 业务核心必要 (高)
+[INFO] 15/26 android.permission.ACCESS_WIFI_STATE -> 业务辅助合理 (高)
+[INFO] 16/26 android.permission.WRITE_EXTERNAL_STORAGE -> 业务弱相关需审查 (中)
+[INFO] 17/26 android.permission.QUERY_ALL_PACKAGES -> 业务弱相关需审查 (中)
+[INFO] 18/26 android.permission.READ_MEDIA_IMAGES -> 业务辅助合理 (中)
+[INFO] 19/26 android.permission.BLUETOOTH_ADMIN -> 业务弱相关需审查 (中)
+[INFO] 20/26 android.permission.CHANGE_WIFI_STATE -> 业务弱相关需审查 (中)
+[INFO] 21/26 android.permission.READ_MEDIA_AUDIO -> 业务弱相关需审查 (中)
+[INFO] 22/26 android.permission.ACCESS_NETWORK_STATE -> 业务辅助合理 (高)
+[INFO] 23/26 android.permission.RECORD_AUDIO -> 业务辅助合理 (中)
+[INFO] 24/26 android.permission.ACCESS_COARSE_LOCATION -> 业务辅助合理 (高)
+[INFO] 25/26 android.permission.FOREGROUND_SERVICE_DATA_SYNC -> 业务弱相关需审查 (中)
+[INFO] 26/26 android.permission.REORDER_TASKS -> 业务弱相关需审查 (中)
+[DONE] 报告已输出：E:\exper\output\麦兔科技\国标和权限分析结果.md

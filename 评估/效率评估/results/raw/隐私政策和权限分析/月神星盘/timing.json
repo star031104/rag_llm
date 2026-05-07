@@ -1,0 +1,152 @@
+{
+  "app_name": "月神星盘",
+  "pipeline_name": "隐私政策和权限分析",
+  "meta": {
+    "script_path": "D:\\桌面\\毕设\\code\\隐私政策和权限分析.py",
+    "project_dir": "E:\\exper",
+    "policy_path": "E:\\exper\\dataset\\隐私政策\\月神星盘.txt"
+  },
+  "stage_times": {
+    "analysis": 40.116125499999725
+  },
+  "rag_calls": [],
+  "llm_calls": [
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 2.3419866999997794,
+      "prompt_tokens": 1213,
+      "completion_tokens": 184,
+      "total_tokens": 1397,
+      "input_cost": 0.0006065,
+      "output_cost": 0.000184,
+      "total_cost": 0.0007905000000000001,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 2.7410420999999587,
+      "prompt_tokens": 1179,
+      "completion_tokens": 234,
+      "total_tokens": 1413,
+      "input_cost": 0.0005895,
+      "output_cost": 0.000234,
+      "total_cost": 0.0008235,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 7.3901019999998425,
+      "prompt_tokens": 1169,
+      "completion_tokens": 167,
+      "total_tokens": 1336,
+      "input_cost": 0.0005845,
+      "output_cost": 0.000167,
+      "total_cost": 0.0007515,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 4.664641800000027,
+      "prompt_tokens": 1134,
+      "completion_tokens": 205,
+      "total_tokens": 1339,
+      "input_cost": 0.000567,
+      "output_cost": 0.000205,
+      "total_cost": 0.000772,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 8.095274399999653,
+      "prompt_tokens": 1130,
+      "completion_tokens": 257,
+      "total_tokens": 1387,
+      "input_cost": 0.000565,
+      "output_cost": 0.000257,
+      "total_cost": 0.000822,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 4.454776000000038,
+      "prompt_tokens": 1193,
+      "completion_tokens": 264,
+      "total_tokens": 1457,
+      "input_cost": 0.0005965,
+      "output_cost": 0.000264,
+      "total_cost": 0.0008605,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 0.604251899999781,
+      "prompt_tokens": 741,
+      "completion_tokens": 1,
+      "total_tokens": 742,
+      "input_cost": 0.0003705,
+      "output_cost": 1e-06,
+      "total_cost": 0.00037150000000000003,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 4.132688600000165,
+      "prompt_tokens": 625,
+      "completion_tokens": 258,
+      "total_tokens": 883,
+      "input_cost": 0.0003125,
+      "output_cost": 0.000258,
+      "total_cost": 0.0005705,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 2.5967791000002762,
+      "prompt_tokens": 632,
+      "completion_tokens": 267,
+      "total_tokens": 899,
+      "input_cost": 0.000316,
+      "output_cost": 0.000267,
+      "total_cost": 0.000583,
+      "extra": {}
+    },
+    {
+      "provider": "OpenAI-Compatible",
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "latency_s": 2.8904474000000846,
+      "prompt_tokens": 627,
+      "completion_tokens": 253,
+      "total_tokens": 880,
+      "input_cost": 0.0003135,
+      "output_cost": 0.000253,
+      "total_cost": 0.0005665,
+      "extra": {}
+    }
+  ],
+  "summary": {
+    "latency_total_s": 40.11688960000038,
+    "rag_latency_s": 0,
+    "llm_inference_time_s": 39.911989999999605,
+    "other_time_s": 0.2048996000007719,
+    "rag_call_count": 0,
+    "llm_call_count": 10,
+    "prompt_tokens": 9643,
+    "completion_tokens": 2090,
+    "total_tokens": 11733,
+    "token_cost": 0.006911500000000001,
+    "currency": "¥"
+  },
+  "extra": {
+    "success": true,
+    "error": ""
+  }
+}
